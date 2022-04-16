@@ -13,7 +13,7 @@ This project has a bunch of moving parts, so make sure you have all the required
 1. Python libraries for data processing:  
 ```
 $ pip3 install google-cloud-bigquery  
-$ *python -m pip install "dask[dataframe]"   
+$ python3 -m pip install "dask[dataframe]"   
 $ pip3 install pandas matplotlib numpy    
 $ pip3 install google-api-python-client google-auth-httplib2 google-auth-oauthlib  
 $ pip3 install notebook
