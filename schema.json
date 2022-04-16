@@ -1,0 +1,530 @@
+[
+    {
+        "description": "ip",
+        "mode": "REQUIRED",
+        "type": "STRING",
+        "name": "ip"
+    },
+    {
+        "description": "score",
+        "mode": "REQUIRED",
+        "type": "FLOAT",
+        "name": "score"
+    },
+    {
+        "description": "history_bin",
+        "mode": "REQUIRED",
+        "type": "STRING",
+        "name": "history_bin"
+    },
+    {
+        "description": "survey number 0",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_0"
+    },
+    {
+        "description": "survey number 1",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_1"
+    },
+    {
+        "description": "survey number 2",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_2"
+    },
+    {
+        "description": "survey number 3",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_3"
+    },
+    {
+        "description": "survey number 4",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_4"
+    },
+    {
+        "description": "survey number 5",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_5"
+    },
+    {
+        "description": "survey number 6",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_6"
+    },
+    {
+        "description": "survey number 7",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_7"
+    },
+    {
+        "description": "survey number 8",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_8"
+    },
+    {
+        "description": "survey number 9",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_9"
+    },
+    {
+        "description": "survey number 10",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_10"
+    },
+    {
+        "description": "survey number 11",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_11"
+    },
+    {
+        "description": "survey number 12",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_12"
+    },
+    {
+        "description": "survey number 13",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_13"
+    },
+    {
+        "description": "survey number 14",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_14"
+    },
+    {
+        "description": "survey number 15",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_15"
+    },
+    {
+        "description": "survey number 16",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_16"
+    },
+    {
+        "description": "survey number 17",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_17"
+    },
+    {
+        "description": "survey number 18",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_18"
+    },
+    {
+        "description": "survey number 19",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_19"
+    },
+    {
+        "description": "survey number 20",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_20"
+    },
+    {
+        "description": "survey number 21",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_21"
+    },
+    {
+        "description": "survey number 22",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_22"
+    },
+    {
+        "description": "survey number 23",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_23"
+    },
+    {
+        "description": "survey number 24",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_24"
+    },
+    {
+        "description": "survey number 25",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_25"
+    },
+    {
+        "description": "survey number 26",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_26"
+    },
+    {
+        "description": "survey number 27",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_27"
+    },
+    {
+        "description": "survey number 28",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_28"
+    },
+    {
+        "description": "survey number 29",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_29"
+    },
+    {
+        "description": "survey number 30",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_30"
+    },
+    {
+        "description": "survey number 31",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_31"
+    },
+    {
+        "description": "survey number 32",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_32"
+    },
+    {
+        "description": "survey number 33",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_33"
+    },
+    {
+        "description": "survey number 34",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_34"
+    },
+    {
+        "description": "survey number 35",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_35"
+    },
+    {
+        "description": "survey number 36",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_36"
+    },
+    {
+        "description": "survey number 37",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_37"
+    },
+    {
+        "description": "survey number 38",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_38"
+    },
+    {
+        "description": "survey number 39",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_39"
+    },
+    {
+        "description": "survey number 40",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_40"
+    },
+    {
+        "description": "survey number 41",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_41"
+    },
+    {
+        "description": "survey number 42",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_42"
+    },
+    {
+        "description": "survey number 43",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_43"
+    },
+    {
+        "description": "survey number 44",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_44"
+    },
+    {
+        "description": "survey number 45",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_45"
+    },
+    {
+        "description": "survey number 46",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_46"
+    },
+    {
+        "description": "survey number 47",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_47"
+    },
+    {
+        "description": "survey number 48",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_48"
+    },
+    {
+        "description": "survey number 49",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_49"
+    },
+    {
+        "description": "survey number 50",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_50"
+    },
+    {
+        "description": "survey number 51",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_51"
+    },
+    {
+        "description": "survey number 52",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_52"
+    },
+    {
+        "description": "survey number 53",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_53"
+    },
+    {
+        "description": "survey number 54",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_54"
+    },
+    {
+        "description": "survey number 55",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_55"
+    },
+    {
+        "description": "survey number 56",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_56"
+    },
+    {
+        "description": "survey number 57",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_57"
+    },
+    {
+        "description": "survey number 58",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_58"
+    },
+    {
+        "description": "survey number 59",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_59"
+    },
+    {
+        "description": "survey number 60",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_60"
+    },
+    {
+        "description": "survey number 61",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_61"
+    },
+    {
+        "description": "survey number 62",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_62"
+    },
+    {
+        "description": "survey number 63",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_63"
+    },
+    {
+        "description": "survey number 64",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_64"
+    },
+    {
+        "description": "survey number 65",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_65"
+    },
+    {
+        "description": "survey number 66",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_66"
+    },
+    {
+        "description": "survey number 67",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_67"
+    },
+    {
+        "description": "survey number 68",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_68"
+    },
+    {
+        "description": "survey number 69",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_69"
+    },
+    {
+        "description": "survey number 70",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_70"
+    },
+    {
+        "description": "survey number 71",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_71"
+    },
+    {
+        "description": "survey number 72",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_72"
+    },
+    {
+        "description": "survey number 73",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_73"
+    },
+    {
+        "description": "survey number 74",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_74"
+    },
+    {
+        "description": "survey number 75",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_75"
+    },
+    {
+        "description": "survey number 76",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_76"
+    },
+    {
+        "description": "survey number 77",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_77"
+    },
+    {
+        "description": "survey number 78",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_78"
+    },
+    {
+        "description": "survey number 79",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_79"
+    },
+    {
+        "description": "survey number 80",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_80"
+    },
+    {
+        "description": "survey number 81",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_81"
+    },
+    {
+        "description": "survey number 82",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_82"
+    },
+    {
+        "description": "survey number 83",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_83"
+    },
+    {
+        "description": "survey number 84",
+        "mode": "REQUIRED",
+        "type": "INT64",
+        "name": "survey_84"
+    }
+]
