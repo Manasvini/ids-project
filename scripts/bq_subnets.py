@@ -8,7 +8,7 @@ import json
 project_id = 'censys-research-340718'
 #table_id = 'ant_isi_ip_history.ip_history'
 data_dir = 'address_history'
-credentials = service_account.Credentials.from_service_account_file('censys-research-340718-7efa9b4a67c9.json')
+credentials = service_account.Credentials.from_service_account_file('credentials.json')
 client = bigquery.Client(credentials=credentials)
 
 table_id=project_id+'.censys_ips.subnets_20210727'
