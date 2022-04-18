@@ -1,0 +1,61 @@
+'''
+	get /24s unique to censys
+'''
+SELECT distinct ip_subnet FROM `censys-research-340718.censys_ips.subnets_20210727` cs
+except distinct
+select distinct s.ip_subnet from `censys-research-340718.ant_isi_ip_history.subnets` s 
+join `censys-research-340718.ant_isi_ip_history.ip_history` 
+a on a.ip = s.ip
+where a.survey_84=1
+
+
+
+'''
+	get /24s unique to ANT ISI
+'''
+
+select distinct s.ip_subnet from `censys-research-340718.ant_isi_ip_history.subnets` s 
+join `censys-research-340718.ant_isi_ip_history.ip_history` 
+a on a.ip = s.ip
+where a.survey_84=1
+except distinct
+SELECT distinct ip_subnet FROM `censys-research-340718.censys_ips.subnets_20210727` cs
+
+
+'''
+	/24s common to both datasets
+
+'''
+select distinct s.ip_subnet from `censys-research-340718.ant_isi_ip_history.subnets` s 
+join `censys-research-340718.ant_isi_ip_history.ip_history` 
+a on a.ip = s.ip
+join `censys-research-340718.censys_ips.subnets_20210727` cs
+on cs.ip = s.ip
+where a.survey_84=1
+
+
+
+
+Calculate change in ping response across surveys
+
+'''
+select ip, abs(survey_84 -survey_83) + abs(survey_83 -survey_82) + abs(survey_82 -survey_81) + abs(survey_81 -survey_80) + abs(survey_80 -survey_79), survey_84 + survey_83 + survey_82 + survey_81 + survey_80 + survey_79  
+FROm `censys-research-340718.ant_isi_ip_history.ip_history` a
+
+
+'''
+Change in response averaged across /24
+'''
+SELECT s.ip_subnet, avg(rv.f0_), avg(rv.f1_) FROM `censys-research-340718.ant_isi_ip_history.response_variation`  rv
+join `censys-research-340718.ant_isi_ip_history.subnets` s 
+on rv.ip = s.ip
+group by s.ip_subnet
+
+
+''' ANT unresponsive /24s found in Censys
+'''
+select distinct s.ip_subnet from `censys-research-340718.ant_isi_ip_history.response_variation` r
+join `censys-research-340718.censys_ips.subnets_20210727` s 
+on s.ip = r.ip
+
+where total = 0 and change = 0
