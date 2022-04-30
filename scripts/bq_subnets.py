@@ -11,12 +11,11 @@ data_dir = 'address_history'
 credentials = service_account.Credentials.from_service_account_file('credentials.json')
 client = bigquery.Client(credentials=credentials)
 
-table_id=project_id+'.censys_ips.subnets_20210727'
+table_id=project_id+'.censys_ips.subnets_20201124'
 job_config = bigquery.QueryJobConfig(destination=table_id)
-
 sql = """
     select distinct ipv4 as ip, concat(split(ipv4, '.')[SAFE_OFFSET(0)], '.', split(ipv4, '.')[SAFE_OFFSET(1)], '.', split(ipv4, '.')[SAFE_OFFSET(2)], '.0') as ip_subnet 
- FROM `censys-research-340718.censys_ips.snapshot_20210727`; 
+ FROM `censys-research-340718.censys_ips.snapshot_20201124`; 
 """
 
 # Start the query, passing in the extra configuration.
