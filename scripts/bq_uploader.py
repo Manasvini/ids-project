@@ -28,7 +28,7 @@ def create_table(schema):
     )
 
 def upload_censys_ips(folder):
-    table = 'censys_ips.snapshot_20201124'
+    table = 'censys_ips.snapshot_20210223'
     files = [os.path.join(folder, f) for f in os.listdir(folder) if os.path.isfile(os.path.join(folder, f))]
     print(files)
     job_config = bigquery.LoadJobConfig(source_format=bigquery.SourceFormat.CSV)
